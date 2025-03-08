@@ -159,6 +159,7 @@ def message_box(subject, content):
 
 def main():
     global width, rows, s, snack
+    pygame.display.set_caption('Snaker')
     width = 500
     rows = 20
     win = pygame.display.set_mode((width, width))
